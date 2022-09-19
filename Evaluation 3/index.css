@@ -1,0 +1,93 @@
+/* Fill CSS here */
+
+body {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(8, 62, 240);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+body>div:first-of-type {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    /* display: grid; */
+    box-sizing: border-box;
+    width: 25%;
+    padding: 40px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+label {
+    font-size: 20px;
+    color: rgb(95, 86, 37);
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(132, 155, 155);
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: rgb(8, 62, 240);
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+table,
+filt {
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    border-collapse: collapse;
+    color: rgb(34, 34, 63);
+}
+
+thead>tr {
+    text-align: center;
+    background-color: rgb(8, 62, 240);
+    height: 50px;
+    color: white;
+}
+
+tbody>tr {
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    height: 50px;
+    border: 1px solid;
+}
+
+td,
+th {
+    border: 1px solid rgb(116, 102, 102);
+}
+
+td {
+    font-size: 1.2rem;
+}
+
+#footer {
+    margin: auto;
+    width: 300px;
+    justify-content: space-around;
+}
